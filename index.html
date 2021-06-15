@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock, Paper, Scissors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <header>
+         <h1>Rock, Paper, Scissors</h1> 
+      </header>
+
+      <div class="score-board">
+          <div id="user-label" class="badge">user</div>
+          <div id="computer-label" class="badge">comp</div>
+          <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+
+      <div class="results">
+          <p>paper covers rock. You win!</p>
+      </div>
+
+      <div class="choices">
+          <div class="choice" id="r">
+            <i class="fas fa-hand-rock"></i>
+          </div>
+          <div class="choice" id="p">
+            <i class="fas fa-hand-paper"></i>
+          </div>
+          <div class="choice" id="s">
+            <i class="fas fa-hand-scissors"></i>
+          </div>
+      </div>
+
+      <p id="action-message">Click On An Icon TO Make Your Move</p>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
